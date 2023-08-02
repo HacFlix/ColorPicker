@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .container {
   width: 80%;
@@ -24,27 +24,27 @@
 }
 .pallete-container {
   width: 100%;
-  height: auto;
+  height: max-content;
   display: flex;
+  margin-top: 20px;
+  justify-content: center;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 0 20px;
+  padding-bottom: 10px;
   gap: 40px;
 }
 button {
-  width: 25%;
-  font-size: 1.3rem;
-  transition: all 0.3s ease-in-out;
-  color: navy;
+  margin-top: 20px;
   outline: none;
-  background-color: white;
-  border: 2px solid navy;
-  cursor: pointer;
-  border-radius: 40px;
+  border: none;
   padding: 5px 10px;
+  cursor: pointer;
+  color: white;
+  background-color: #59f51c;
+  border-radius: 10px;
 }
 button:hover {
-  background-color: navy;
-  color: white;
+  background-color: #3dd800;
 }
 .card {
   height: 250px;
@@ -81,7 +81,16 @@ button:hover {
   background-color: rgb(2, 2, 204);
 }
 @media (max-width: 1660px) {
+  .container {
+    height: max-content;
+  }
   button {
     font-size: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  button {
+    font-size: 1rem;
+    width: 100%;
   }
 }
