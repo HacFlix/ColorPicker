@@ -1,19 +1,12 @@
 # ColorPicker - Vite React App
 
-![ColorPicker Logo](link_to_logo.png) *(if applicable)*
-
 ## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Prerequisites](#prerequisites)
 4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Contact](#contact)
-9. [Acknowledgments](#acknowledgments)
-
+   
 ## Introduction
 
 Welcome to ColorPicker, a Vite-powered React web application that lets you generate color palettes. This app is designed to assist designers, developers, and anyone in need of beautiful color combinations for their projects.
