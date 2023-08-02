@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+.container {
+  width: 80%;
+  height: 80vh;
+  margin: 5% auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(0, 0, 92);
+  font-weight: 800;
+}
+.pallete-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 40px;
+}
+button {
+  width: 25%;
+  font-size: 1.3rem;
+  transition: all 0.3s ease-in-out;
+  color: navy;
+  outline: none;
+  background-color: white;
+  border: 2px solid navy;
+  cursor: pointer;
+  border-radius: 40px;
+  padding: 5px 10px;
+}
+button:hover {
+  background-color: navy;
+  color: white;
+}
+.card {
+  height: 250px;
+  position: relative;
+  width: 200px;
+  box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.1);
+}
+.color {
+  margin: 20px auto;
+  height: 150px;
+  width: 150px;
+  background-color: red;
+}
+.code {
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.copy {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(0, 0, 92);
+  color: white;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+
+  font-weight: 500;
+  transition: all 0.2s linear;
+  user-select: none;
+  cursor: pointer;
+}
+.copy:active {
+  background-color: rgb(2, 2, 204);
+}
+@media (max-width: 1660px) {
+  button {
+    font-size: 1rem;
+  }
+}
