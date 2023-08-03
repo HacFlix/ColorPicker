@@ -1,5 +1,7 @@
 # ColorPicker - Vite React App
 
+visit the website [here](https://colorpicker-enk.pages.dev)
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
